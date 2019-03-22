@@ -59,7 +59,7 @@
 
 **3. Service** 
 
-        - Check for test implementation `com.ssiryk.workflow.controller.WorkflowController`
+    - Check for test implementation `com.ssiryk.workflow.controller.WorkflowController`
 	- OAuth
 	- Persistance and CRUD Operations for Jobs and Workflows?
 	- Documentation/Swagger 
