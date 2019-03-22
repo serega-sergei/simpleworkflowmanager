@@ -59,7 +59,7 @@
 
 **3. Service** 
 
-    - Check for test implementation `com.ssiryk.workflow.controller.WorkflowController`
+        - Check for test implementation `com.ssiryk.workflow.controller.WorkflowController`
 	- OAuth
 	- Persistance and CRUD Operations for Jobs and Workflows?
 	- Documentation/Swagger 
@@ -68,9 +68,10 @@
 **4. Scaling**
 
 	- See #3
-	- Prefferably horizontal scaling with LB, Caching, 
+	- Prefferably horizontal scaling with LB, Caching, ...
 	- Parallel execution of Workflows as well as Jobs without dependecies or with already executed dependecies
 	- Asynchronus workflow execution with later notification on completion
+	- Splitting/Aggreation of the Jobs for parallel execution
 	- Circuit Breaker to mitigate failures
 	- Improving Topological Sorting Algorithm (use existing one which proved its run time effectivness)
 	
