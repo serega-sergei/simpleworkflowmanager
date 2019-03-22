@@ -1,5 +1,3 @@
-[TOC]
-
 #### Build
 
 `mvn clean install`
@@ -9,6 +7,7 @@
 `mvn spring-boot:run`
 
 #### Sample Endpoint
+
 **URI:** /simpleworkflowmanager/api/workflow/execute
 
 **METHOD:** POST
@@ -52,7 +51,7 @@
     ]
 }`
 
-####Bullet Points.
+#### Bullet Points.
 
 **1. See Build and Execute section**
 
@@ -69,9 +68,10 @@
 **4. Scaling**
 
 	- See #3
-	- Prefferably horizontal scaling with LB, Caching, 
+	- Prefferably horizontal scaling with LB, Caching, ...
 	- Parallel execution of Workflows as well as Jobs without dependecies or with already executed dependecies
 	- Asynchronus workflow execution with later notification on completion
+	- Splitting/Aggreation of the Jobs for parallel execution
 	- Circuit Breaker to mitigate failures
 	- Improving Topological Sorting Algorithm (use existing one which proved its run time effectivness)
 	
