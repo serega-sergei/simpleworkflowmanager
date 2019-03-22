@@ -1,5 +1,3 @@
-[TOC]
-
 #### Build
 
 `mvn clean install`
@@ -9,6 +7,7 @@
 `mvn spring-boot:run`
 
 #### Sample Endpoint
+
 **URI:** /simpleworkflowmanager/api/workflow/execute
 
 **METHOD:** POST
@@ -52,7 +51,7 @@
     ]
 }`
 
-####Bullet Points.
+#### Bullet Points.
 
 **1. See Build and Execute section**
 
