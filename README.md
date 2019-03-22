@@ -61,22 +61,22 @@
 
     - Check for test implementation `com.ssiryk.workflow.controller.WorkflowController`
 	- OAuth
-	- Persistance and CRUD Operations for Jobs and Workflows?
+	- Persistence and CRUD Operations for Jobs and Workflows?
 	- Documentation/Swagger 
 	- API Rate Limiting and ... / Apigee
 	
 **4. Scaling**
 
 	- See #3
-	- Prefferably horizontal scaling with LB, Caching, ...
-	- Parallel execution of Workflows as well as Jobs without dependecies or with already executed dependecies
-	- Asynchronus workflow execution with later notification on completion
-	- Splitting/Aggreation of the Jobs for parallel execution
+	- Preferably horizontal scaling with LB, Caching, ...
+	- Parallel execution of Workflows as well as Jobs without dependencies or with already executed dependencies
+	- Asynchronous/Batch/Scheduled workflow execution with later notification on completion
+	- Splitting/Aggregation of the Jobs for parallel execution
 	- Circuit Breaker to mitigate failures
-	- Improving Topological Sorting Algorithm (use existing one which proved its run time effectivness)
+	- Improving Topological Sorting Algorithm (use existing one which proved its run time effectiveness)
 	
 **5. Practical Applications**
 
 	- School courses scheduling
-	- Dependecy management/maven
+	- Dependency management/maven
 	- Order of equipment assembly

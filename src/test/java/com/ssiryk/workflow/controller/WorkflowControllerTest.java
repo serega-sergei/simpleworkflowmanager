@@ -64,8 +64,6 @@ public class WorkflowControllerTest {
 
     @Test
     public void execute() {
-//        RestAssured.baseURI = "http://localhost:8080/simpleworkflowmanager/api";
-
         given()
                 .contentType(ContentType.JSON)
                 .body(payload)

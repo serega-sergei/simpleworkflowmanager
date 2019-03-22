@@ -12,7 +12,7 @@ public class WorkflowExecutionResult {
     @JsonIgnore
     private Workflow workflow;
 
-    @JsonProperty("workflowName")
+    @JsonProperty("workflow")
     private String workflowName;
 
     @JsonProperty("jobs")
