@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * Main functionality test.
- * TODO: Move all workflow and workflow defenitions to json files and create them from there
+ * TODO: Add more Tests: multiple workflows, big graphs, different cycles, move all workflow and workflow defenitions to json files and create them from there
  */
 public class WorkflowManagerTest {
 
